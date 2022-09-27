@@ -1,0 +1,6 @@
+/*--- for mobile responsive ---*/
+@media(max-width:576px){
+	.d-none{
+		display: none;
+	}
+}
