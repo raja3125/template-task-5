@@ -1,6 +1,13 @@
 /*--- for mobile responsive ---*/
 @media(max-width:576px){
+	.container{
+		width:100%;
+	}
 	.d-none{
 		display: none;
 	}
+	.col-12{
+		width:100% !important;
+	}
+
 }

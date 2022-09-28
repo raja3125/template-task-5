@@ -53,7 +53,7 @@ body{
 	background-color: rgb(12 11 9 / 14%);
 }
 .top-info{
-	width:80%;
+	width:100%;
 }
 .info-list li{
 	display:inline-block;
@@ -447,26 +447,26 @@ color:#d9ba85;
 	padding:15px 15px ;
 	
 }
-.fimg img{
+.food-img img{
 	width: 80px;
     border-radius: 50%;
     border: 5px solid rgba(255, 255, 255, 0.2);
 }
-.fcontent{
+.img-content{
 	flex-grow:3;
 	padding:5px 15px;
 	color:white;
 	
 }
 
-.fcontent-text{
+.img-content-text{
 	position:relative;
 	display:flex;
 	justify-content:space-between;
 	z-index:1;
 	
 }
-.fcontent-text a{
+.img-content-text a{
 	color:white;
 	text-decoration:none;
 	font-family: 'Open Sans', sans-serif;
@@ -474,15 +474,15 @@ color:#d9ba85;
 	padding:5px;
 }
 
-.fcontent-text a:hover{
+.img-content-text a:hover{
 	color:#d9ba85;
 }
-.fcontent-text span{
+.img-content-text span{
 	padding:5px;
 	color:#d9ba85;
 	background-color:#1a1814;
 }
-.fcontent-text::after{
+.img-content-text::after{
 		content:'';
 		position:absolute;
 		top:50%;
@@ -492,7 +492,7 @@ color:#d9ba85;
 		z-index:-1;
 		transform:translatey(-50%);		    	
 }
-.fcontent-p{
+.img-content-p{
     font-style: italic;
     font-size: 14px;
     font-family: "Poppins", sans-serif;
